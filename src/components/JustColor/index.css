@@ -1,0 +1,22 @@
+.nav-item {
+    position: relative;
+    padding-left: 20px;
+    color: white;
+}
+
+.nav-item::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+
+
+
+.innerSpan {
+    padding-left: 10px;
+    color: white;
+}
